@@ -1,6 +1,6 @@
-Buttery Biscuit Wordpress Framework
+WPCC Wordpress Theme
 =============
-This is the start of a base framework theme, and default plugins for ongoing Wordpress work.\
+Wordpress Theme for Woonona Presbyterian Church
 
 
 Personal Use
