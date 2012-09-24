@@ -1,1 +1,8 @@
-@import "css/reset.css";div,article,section,header,footer,nav,li{position:relative}.group:after{display:block;height:0;clear:both;content:".";visibility:hidden}body{background:#fff}::-moz-selection{background:#ff0;color:#333}::selection{background:#ff0;color:#333}h1,h2,h3,h4,h5,h6{font-weight:bold}
+@import "css/reset.css";/*!
+Theme Name: 	Woonona PCC
+Theme URI: 		http://Woononapcc.org.au
+Description: 	Wordpress theme for Woonona Presbyterian Community Church
+Version: 		1.0
+Author: 		Jordesign
+Author URI: 	http://www.jordesign.com
+*/div,article,section,header,footer,nav,li{position:relative}.group:after{display:block;height:0;clear:both;content:".";visibility:hidden}body{background:#fff}::-moz-selection{background:#ff0;color:#333}::selection{background:#ff0;color:#333}h1,h2,h3,h4,h5,h6{font-weight:bold}
