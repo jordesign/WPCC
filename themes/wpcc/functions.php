@@ -26,6 +26,15 @@
 	======================================================================================================================== */
 
 	add_theme_support('post-thumbnails');
+	// navigation menu
+	function register_main_menus() {
+		register_nav_menus(
+			array(
+				'primary-menu' => __( 'Primary Menu','themnific' )
+			)
+		);
+	};
+	if (function_exists('register_nav_menus')) add_action( 'init', 'register_main_menus' );
 	
 	// register_nav_menus(array('primary' => 'Primary Navigation'));
 
