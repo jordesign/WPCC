@@ -1,8 +1,7 @@
 
 	<?php wp_footer(); ?>
-	<div id="mainMenu">
-	    <?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
-	</div>
+	
+</div>
 	<div id="utilities">
 	    <ul>       
 	        <li id="uSermons"><a href="#">Sermons/Podcast </a></li>              
