@@ -4,9 +4,9 @@
 </div>
 	<div id="utilities">
 	    <ul>       
-	        <li id="uSermons"><a href="#">Sermons/Podcast </a></li>              
-	        <li id="uEvents"><a href="#">Coming Events </a></li>                            
-	        <li id="uMembers"><a href="#">Members</a></li>
+	        <li id="uSermons"><a href="/wpcc/sermons/">Sermons/Podcast </a></li>              
+	        <li id="uEvents"><a href="/wpcc/events/">Coming Events </a></li>                            
+	        <li id="uMembers"><a href="/wpcc/members/">Members</a></li>
 	    </ul>
 	</div>
 	</body>

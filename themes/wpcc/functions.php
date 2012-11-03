@@ -49,6 +49,8 @@
 	add_filter( 'body_class', 'add_slug_to_body_class' );
 	
 	add_image_size( 'feature_slide', 606, 308, true ); 
+	
+	add_image_size( 'feature_image', 610, 170, true ); 
 
 	/* ========================================================================================================================
 	
