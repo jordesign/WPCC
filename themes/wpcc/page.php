@@ -14,7 +14,7 @@
 
  */
 ?>
-<?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
+    <?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <?php if(is_front_page()) { ?>
  <div id="homeIntro">
@@ -77,35 +77,35 @@
        wp_reset_query();
         ?>
     </ul>
-    <a href="#" class="button blue">All Events</a>
+    <a href="/events/" class="button blue">All Events</a>
     </div>
 </div>
 <div id="homeSecondary">
     <div id="homePathways">
         <div class="pathway odd">
-            <a href="#"><img src="<?php bloginfo('stylesheet_directory')?>/images/men.jpg" alt="Men watching a speaker"></a>
-            <h3><a href="#"><strong>WWPC</strong> For Men</a></h3>
+            <a href="/connect/men/"><img src="<?php bloginfo('stylesheet_directory')?>/images/men.jpg" alt="Men watching a speaker"></a>
+            <h3><a href="/connect/men/"><strong>WWPC</strong> For Men</a></h3>
         </div>
         <div class="pathway even">
-            <a href="#"><img src="<?php bloginfo('stylesheet_directory')?>/images/women.jpg" alt="Women doing Craft"></a>
-            <h3><a href="#"><strong>WWPC</strong> For Women</a></h3>
+            <a href="/connect/women/"><img src="<?php bloginfo('stylesheet_directory')?>/images/women.jpg" alt="Women doing Craft"></a>
+            <h3><a href="/connect/women/"><strong>WWPC</strong> For Women</a></h3>
         </div>
         <div class="pathway odd">
-            <a href="#"><img src="<?php bloginfo('stylesheet_directory')?>/images/youth.jpg" alt="Children Playing Outside"></a>
-            <h3><a href="#"><strong>WWPC</strong> For Youth</a></h3>
+            <a href="/connect/youth/"><img src="<?php bloginfo('stylesheet_directory')?>/images/youth.jpg" alt="Children Playing Outside"></a>
+            <h3><a href="/connect/youth/"><strong>WWPC</strong> For Youth</a></h3>
         </div>
         <div class="pathway even">
-            <a href="#"><img src="<?php bloginfo('stylesheet_directory')?>/images/kids.jpg" alt="Children with Toys"></a>
-            <h3><a href="#"><strong>WWPC</strong> For Children</a></h3>
+            <a href="/connect/children/"><img src="<?php bloginfo('stylesheet_directory')?>/images/kids.jpg" alt="Children with Toys"></a>
+            <h3><a href="/connect/children/"><strong>WWPC</strong> For Children</a></h3>
         </div>
     </div>
     <div id="homeTimes">
         <h3><img src="<?php bloginfo('stylesheet_directory') ?>/images/joinUs.png" alt="Come join us this Sunday"></h3>
-        <h4><a href="#">Traditional Service</a></h4>
+        <h4><a href="/connect/services/#traditional">Traditional Service</a></h4>
         <p>8:00am Sunday</p>
-        <h4><a href="#">Contemporary + Kid's Service</a></h4>
+        <h4><a href="/connect/services/#contemporary">Contemporary + Kid's Service</a></h4>
         <p>9:30am Sunday</p>
-        <h4><a href="#">Salt @ Six</a></h4>
+        <h4><a href="/connect/services/#salt">Salt @ Six</a></h4>
         <p>6:00pm Sunday</p>
     </div>
     <div id="homeLocation">
