@@ -63,6 +63,7 @@ p, td, li {  font-size: 15px; line-height: 21px;color: @bodyColour;  }
 p {  margin: 0 0 16px 0;  }
 #content ul {  margin-bottom: 22px;  }
 #content li {  margin-bottom: 8px; padding-left: 10px; background: url(images/bullet.png) no-repeat 0 9px;  }
+.archive h2 {  margin-bottom: 5px;  }
 
 a:link, a:visited {  color: @primaryColour; text-decoration: none; -webkit-transition: color .4s ease; }
 a:hover {  color: @bodyColour; text-decoration: underline;  }
@@ -91,7 +92,7 @@ body {  background: url(images/bg.jpg) repeat 0 0; -webkit-background-size: cove
 	
 #utilities {  position: absolute; top: 0; left: 0; width: 100%; height: 31px; background: url(images/utilities.png) repeat 0 0;  }
     #utilities ul {  margin: 2px 5px; height: 21px; padding: 0; list-style: none; text-align: center;  }
-        #utilities li {  display: inline-block; margin-right: 11px; font-size: 13px; line-height: 21px;  }
+        #utilities li {  display: inline-block; margin-right: 11px; font-size: 14px; line-height: 21px; margin: 0 3px;  }
         #utilities a:link, #utilities a:visited {  display: inline-block; line-height: 21px; color: #aac8de;  background: url(images/icons.png) no-repeat 0 0; background: none; padding-left: 0px; }
         #utilities a:hover {  color: #fff;  }
             #utilities #uSermons a {  background-position: 0 3px;  }
@@ -100,7 +101,7 @@ body {  background: url(images/bg.jpg) repeat 0 0; -webkit-background-size: cove
             
 #header {  margin: 45px 15px 0px;   }
     #header h1 {  float: left; max-width: 75%; margin-bottom: 10px; position: relative; left:  -5px;  }
-    #headerLocation {  clear: left;  padding: 10px 20px; margin: 0 -15px; background: #edebe5; font-size: 13px; color: #9e9a8c; line-height: 18px;  }
+    #headerLocation {  clear: left;  padding: 10px 20px; margin: 0 -15px; background: #edebe5; font-size: 13px; color: #9e9a8c; line-height: 18px;  } 
     #headerLocation a {  color: #9e9a8c; padding-left: 13px; background: url(images/icons.png) no-repeat 0 -111px; margin-left: 10px;  }
     
     a.menu-link, a.menu-link:hover {  position: absolute; top: .5em; right: -5px; padding: 5px 5px 5px 25px; border-radius: 5px; background: @primaryColour; color: #fff; text-decoration: none; font-size: 13px; text-transform: uppercase;  }
@@ -167,18 +168,18 @@ body {  background: url(images/bg.jpg) repeat 0 0; -webkit-background-size: cove
     
 /*Podcast / Sermon Styles */
 #articleList {  }
-    .topPost {  padding: 15px; background: #0069ad; border-radius: 5px; margin-bottom: 10px; }
-    #articleList h3 {  font-size: 21px; color: #0069ad; margin: 0; line-height: 23px; text-transform: none; }
+    .topPost {  padding: 15px; background: @secondaryColour; border-radius: 5px; margin-bottom: 10px; }
+    #articleList h3 {  font-size: 18px; color: #0069ad; margin: 0; line-height: 21px; text-transform: none; }
         #articleList h3 a {  color: #0069ad;  }
     #articleList .topPost h3 {  color: #fff;  }
         #articleList .topPost h3 a {  color: #fff;  }
         #articleList p {  margin-bottom: 10px; font-size: 15px; }
-         p.meta,  p.meta a {  color: #444; margin-bottom: 0;  }
+         p.meta,  p.meta a {  color: #444; margin-bottom: 0; font-size: 14px;  }
         #articleList .topPost p.meta, #articleList .topPost p.meta a {  color: #cdd7dc;  }
         #articleList .topPost .powerpress_links, .topPost .powerpress_links a {  font-size: 14px; color: #cdd7dc; margin: 0; padding: 10px 0 0 0; }
         .topPost embed, .topPost object, #singlePodcast object, #singlePodcast embed {  width: 100% !important; height: 24px !important;  }
         
-        p.breadcrumb {  font-size: 18px; line-height: 1; color: #999; text-transform: uppercase; margin: 0;  }
+        p.breadcrumb {  font-size: 14px; line-height: 1; color: #999; text-transform: uppercase; margin: 0;  }
         #articleList #singlePodcast {  padding: 15px; background: #0069ad; border-radius: 5px; margin-bottom: 10px;  }
         #articleList #singlePodcast p, #articleList #singlePodcast a {  font-size: 14px; color: #cdd7dc; margin: 0; padding: 10px 0 0 0;  }
         .single-podcast h2.leading {  margin-bottom: 20px;  }
@@ -187,17 +188,17 @@ body {  background: url(images/bg.jpg) repeat 0 0; -webkit-background-size: cove
             .sermonDetails p a {  color: #555;  }
             .sermonDetails p strong {  font-size: 18px; color: #0069ad; font-weight: normal;  }
         
-    .post, .page.page-id-197 .post {  padding: 15px;  }
+    .post, .page.page-id-91 .post {  padding: 15px;  }
     .single-post .post, .page .post {  padding:0;  }
-    .post.even {  background: #EFF5F9; border-radius: 3px; }
+    .post.even {  background: #edebe5;  }
     .page-id-194 .post {  padding: 0 0 40px 0; background: none;  }
     .page-id-194 #articleList h3 {  font-size: 24px; line-height: 26px;  }
     .page-id-194 #articleList p.meta, .page-id-194 #articleList p.meta a {  color: #385E75;  }
     .page-id-194 #articleList p.meta a:hover {  color: #111;  }
 
 #articleCats {   }
-    #articleCats h4 {  font-size: 18px; margin-bottom: 5px;  }
-    #articleCats h5 {  font-size: 17px; color: #0069AD; margin: 0; font-weight: normal;  }
+    #articleCats h4 {  font-size: 18px; margin-bottom: 5px; font-weight: normal; color: @secondaryColour;  }
+    #articleCats h5 {  font-size: 15px; color: #0069AD; margin: 0; font-weight: normal; color: @primaryColour;  }
     #articleCats ul {  margin-bottom: 25px;  }
     #articleCats li {  margin-bottom: 3px;font-size: 14px;line-height: 1;  }
         #articleCats li a {  color: #444; font-size: 14px !important; line-height: 1 !important;  }

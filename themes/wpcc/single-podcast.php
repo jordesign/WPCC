@@ -76,4 +76,4 @@
     
    
 </div><!--end #core-->
-<?php get_footer(); ?>
+<?php get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
