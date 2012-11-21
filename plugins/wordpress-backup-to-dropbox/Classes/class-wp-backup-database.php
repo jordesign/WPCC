@@ -63,7 +63,7 @@ abstract class WP_Backup_Database {
 
 		if (!is_writable($dump_location)) {
 			$msg = sprintf(__("A database backup cannot be created because WordPress does not have write access to '%s', please ensure this directory has write access.", 'wpbtd'), $dump_location);
-			$this->config->log(WP_Backup_Config::BACKUP_STATUS_WARNING, $msg);
+			$this->config->log_error($msg);
 			return false;
 		}
 
@@ -130,7 +130,7 @@ abstract class WP_Backup_Database {
 	}
 
 	protected function write_to_file($out) {
-		if (!fwrite($this->handle, $out))
+		if (fwrite($this->handle, $out) === false)
 			throw new Exception(__('Error writing to sql dump file.', 'wpbtd'));
 	}
 

@@ -33,7 +33,7 @@
    	            <span class="day"><?php echo tribe_get_start_date( $post->ID, false, 'j' ); ?></span>
    	        </p>
    	        <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-   	        <p><?php echo tribe_get_start_date( $post->ID, false, 'jS m Y' ); ?> | <?php echo tribe_get_venue(); ?></p>   
+   	        <p><?php echo tribe_get_venue(); ?></p>   
           </li>
     		<?php endwhile; ?>
       

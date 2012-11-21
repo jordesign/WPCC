@@ -30,27 +30,7 @@
                         <?php } ?>
                         <?php if (get('podcast_transcription') !='') { echo get('podcast_transcription'); } ?>
     		        </div>
-    		        <div id="articleCats">
-    		            <h4>Search Sermons</h4>
-    		            <div class="cats">
-    		                <h5>Series</h5>
-    		                <?php wp_tag_cloud( array( 'taxonomy' => 'series', 'format' => 'list' ) ); ?>
-    		            </div>
-    		            <div class="cats">
-    		                <h5>Speaker</h5>
-    		                <?php wp_tag_cloud( array( 'taxonomy' => 'speaker', 'format' => 'list' ) ); ?>
-    		            </div>
-    		            <div class="cats">
-    		                <h5>Service</h5>
-    		                <?php wp_tag_cloud( array( 'taxonomy' => 'service', 'format' => 'list' ) ); ?>
-    		            </div>
-    		            <div class="cats">
-    		                <h5>Topics</h5>
-    		                <?php wp_tag_cloud( array( 'taxonomy' => 'topic', 'format' => 'list' ) ); ?>
-    		            </div>
-    		            
-    		            
-    		        </div>
+    		        
             
     	<?php endwhile;  ?>
     	<?php else: ?>
@@ -68,7 +48,7 @@
         
             <div id="sidebar">
             
-            		<?php get_sidebar(); ?>
+            		<?php include 'sidebar_sermon.php'; ?>
             
             </div>
     	</div><!--end #core .row-->

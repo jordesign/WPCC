@@ -50,7 +50,9 @@
 	
 	add_image_size( 'feature_slide', 606, 308, true ); 
 	
-	add_image_size( 'feature_image', 610, 170, true ); 
+	add_image_size( 'feature_image', 580, 133, true ); 
+	
+	add_image_size( 'sermon_image', 100, 64, true ); 
 
 	/* ========================================================================================================================
 	
