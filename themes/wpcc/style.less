@@ -54,10 +54,10 @@ input,
 textarea 			{ /* We strongly recommend you declare font-weight using numerical values, but check to see which weights you're exporting first */ }
 
 h2 {  font-size: 28px; color: @primaryColour; margin: 0 0 20px 0; line-height: 32px;   }
-h3 {  font-size: 22px; color:  @secondaryColour; margin: 16px 0; line-height: 26px;  }
-h4 {  font-size: 20px; color:  @secondaryColour; margin: 16px 0 0 0; line-height: 25px; font-weight: bold;  }
-h5 {  font-size: 20px; color: @primaryColour; margin: 16px 0 0 0; line-height: 25px; font-weight: bold;   }
-h6 {  font-size: 18px; color: @primaryColour; margin: 16px 0 0 0; line-height: 25px; font-weight: bold;  }
+h3 {  font-size: 24px; color:  @secondaryColour; margin: 28px 0 5px; line-height: 26px;  }
+h4 {  font-size: 20px; color:  @secondaryColour; margin: 28px 0 0 0; line-height: 25px; font-weight: normal;  }
+h5 {  font-size: 18px; color: @primaryColour; margin: 16px 0 0 0; line-height: 25px; font-weight: normal;   }
+h6 {  font-size: 18px; color: @secondaryColour; margin: 16px 0 0 0; line-height: 25px; font-weight: bold;  }
 
 p, td, li {  font-size: 15px; line-height: 21px;color: @bodyColour;  }
 p {  margin: 0 0 16px 0;  }
@@ -70,6 +70,9 @@ a:hover {  color: @bodyColour; text-decoration: underline;  }
 
 img, object, embed, iframe {  max-width: 100%; height: auto !important;  }
 
+blockquote {  margin: 25px 30px;  }
+    blockquote p {  font-family: georgia, times, times new roman, serif; font-style: italic; color: @secondaryColour; font-size: 18px; line-height: 22px;  }
+
 a.button:link, a.button:visited, input.button {  height: 24px; display: inline-block; border-radius: 4px; background: #63a4d4 url(images/button.png) repeat-x 100% 100%; text-align: center; padding: 0 15px; color: #d8e9f4 !important; font-size: 14px; text-transform: uppercase; -webkit-transition: all .4s ease; line-height: 24px;  }
 input.button {  border: none;   }
 a.button:hover, input.button:hover {  color: #fff !important; background: @primaryColour; background-image: none; text-decoration: none;  }
@@ -77,7 +80,7 @@ a.button:hover, input.button:hover {  color: #fff !important; background: @prima
 #content > img, #content p img {  max-width: 35%; border: 5px solid #fff; -webkit-box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.5);
 -moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 0.45);
 box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.45);  }
-#content img.attachment-post-thumbnail {  max-width: 100%; border: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; margin: -10px 0 -5px;  }
+#content img.attachment-post-thumbnail {  max-width: 100%; border: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; margin: -10px 0 15px;  }
 img.alignright {  float: right; margin: 0 0 10px 20px;  }
 img.alignleft {  float: left; margin: 0 20px 10px;  }
 
@@ -204,6 +207,10 @@ body {   font-family: @sansFontFamily;
         #articleCats li a:hover {  color: #111;  }
 #content .attachment-sermon_image { float: left; margin-right: 15px; max-width: 72px;  }
 
+table.otTable td {  padding: 10px 5px;  }
+    table.otTable tr:nth-child( 2n ) {  background: #f3f3f3;  }
+    table.otTable td strong {  font-size: 12px; white-space: nowrap;  }
+
 
 
 
@@ -269,6 +276,7 @@ body {   font-family: @sansFontFamily;
         #menu li.has-subnav:after {  display: none; content: '';  }
         #menu a:link, #menu a:visited {  font-size: 15px; line-height: 42px; border-radius: 7px; margin: 0;padding: 0 12px; color: #398ab2; }
         #menu a:hover, #menu li:hover > a {  text-decoration: none; background: #edeae4; color: @primaryColour;  }
+        #menu li.has-subnav > a:hover {  cursor: default;  }
     
     #menu ul ul {  position: absolute; top: 35px; left: 0; padding: 5px 0 5px 0;width: 180px;  background: #edeae4; border-radius: 7px; z-index: 10;display: none; }
         #menu ul ul li {  background: none !important; border-radius: 0; display: block; text-align: left; height: auto; border-bottom: none; }

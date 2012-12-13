@@ -7,7 +7,7 @@
 
 
 	jQuery(document).ready(function($) {
-	
+	    $('.has-subnav > a').attr('href','#');
 	    $('#menu ul.sub-menu').parent().addClass('has-subnav');
 	    $('.menu-link').click( function(e) {
 	        e.preventDefault();

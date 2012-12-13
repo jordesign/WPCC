@@ -130,6 +130,7 @@
             	the_post_thumbnail();
             } ?>
             <?php the_content(); ?>
+            <?php edit_post_link(); ?>
         <?php endwhile; ?>
         </div>
         <div id="sidebar">
